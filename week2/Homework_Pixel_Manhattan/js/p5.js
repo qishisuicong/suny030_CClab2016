@@ -1,3 +1,6 @@
+//I use this P5 file to generate fireworks, and I borrowed some code from a online tutorial.
+//The link is here: https://jsfiddle.net/jacobjoaquin/hdxvLwbk/
+
 var img;
 
 let gravity,
@@ -118,6 +121,8 @@ function setup() {
 
 function draw() {
   blendMode(BLEND);
+  // background(img);
+
   background(122,176,226);
   if (random(1) < 0.025) {
     fireworks.trigger();
